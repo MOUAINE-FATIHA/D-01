@@ -1,0 +1,33 @@
+# depslib dependency file v1.0
+1756880500 source:d:\langage c\challenges\boucles.c
+	<stdlib.h>
+	<math.h>
+
+1756880479 source:d:\langage c\challenges\conditions.c
+	<stdlib.h>
+	<math.h>
+
+1756880490 source:d:\langage c\challenges\variables.c
+	<stdlib.h>
+	<math.h>
+
+1756660586 source:d:\langage c\challenges\day1.c
+	<stdio.h>
+	<stdlib.h>
+	"day1.h"
+
+1756660532 d:\langage c\challenges\day1.h
+
+1756880514 source:d:\langage c\challenges\main.c
+	<stdlib.h>
+	<math.h>
+
+1756913193 source:d:\langage c\challenges\tableaux.c
+
+1756913162 source:d:\langage c\challenges\mini-projet-d02.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+
+1756977264 source:d:\langage c\challenges\functions.c
+
