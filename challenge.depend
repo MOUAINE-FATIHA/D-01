@@ -29,5 +29,9 @@
 	<stdlib.h>
 	<math.h>
 
-1756977264 source:d:\langage c\challenges\functions.c
+1756999950 source:d:\langage c\challenges\functions.c
+	<stdio.h>
+
+1756999933 source:d:\langage c\challenges\mini-project.c
+	<string.h>
 
