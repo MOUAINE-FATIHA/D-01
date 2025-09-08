@@ -22,16 +22,30 @@
 	<stdlib.h>
 	<math.h>
 
-1756913193 source:d:\langage c\challenges\tableaux.c
+1757289704 source:d:\langage c\challenges\tableaux.c
 
 1756913162 source:d:\langage c\challenges\mini-projet-d02.c
 	<stdio.h>
 	<stdlib.h>
 	<math.h>
 
-1756999950 source:d:\langage c\challenges\functions.c
-	<stdio.h>
+1757326765 source:d:\langage c\challenges\functions.c
 
-1756999933 source:d:\langage c\challenges\mini-project.c
+1757289704 source:d:\langage c\challenges\mini-project.c
+	<string.h>
+
+1757328559 source:d:\langage c\challenges\structures.c
+	<stdio.h>
+	<string.h>
+
+1757289704 source:d:\langage c\challenges\strings.c
+	< stdlib.h>
+	<string.h>
+
+1757295326 source:d:\langage c\challenges\strings1.c
+	<stdlib.h>
+	<string.h>
+
+1757326765 source:d:\langage c\challenges\mini-projet-d03.c
 	<string.h>
 

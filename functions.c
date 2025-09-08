@@ -1,4 +1,4 @@
-#include <stdio.h>
+/*#include <stdio.h>
 
 int somme(int a, int b) {
     return a + b;
@@ -24,15 +24,29 @@ int minimum( int A , int B){
 
 int fatorielle(int a){
     int factor= 1;
-    for(int i=1; i<=a ;i++){
+    for(int i=1; i <= a ;i++){
         factor *= i;
     }
     return factor;
 }
 
-int inversion (char carac){
 
 
+
+void inversion(char *chaine) {
+    int debut = 0;
+    int fin = strlen(chaine) - 1;
+    char temp;
+
+    while (debut < fin) {
+        // Échange des caractères
+        temp = chaine[debut];
+        chaine[debut] = chaine[fin];
+        chaine[fin] = temp;
+
+        debut++;
+        fin--;
+}
 }
 
 int signe (int a){
@@ -93,18 +107,17 @@ int main() {
 
 //----------------------------------------------------------Challenge 7 : Fonction d'Inversion de Chaîne
 
-   /* char caractere;
+    /*char caractere;
     printf("entrez un caractere");
     scanf("%s", &caractere);
 
     printf("l'inverse de cette chaine est : %s",inversion(caractere));*/
 
 //----------------------------------------------------------Challenge 8 : Fonction de Vérification de Parité
-    int nb;
+    /*int nb;
     printf("tapez un nombre ");
     scanf("%d",&nb);
         printf("le nombre est : %d",signe(nb));
     return 0;
-}
-
+}*/
 

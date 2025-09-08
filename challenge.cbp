@@ -40,7 +40,16 @@
 		<Unit filename="day1.c">
 			<Option compilerVar="CC" />
 		</Unit>
+		<Unit filename="functions.c">
+			<Option compilerVar="CC" />
+		</Unit>
 		<Unit filename="main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="mini-project.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="structures.c">
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="tableaux.c">
