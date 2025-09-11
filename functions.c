@@ -30,25 +30,6 @@ int fatorielle(int a){
     return factor;
 }
 
-
-
-
-void inversion(char *chaine) {
-    int debut = 0;
-    int fin = strlen(chaine) - 1;
-    char temp;
-
-    while (debut < fin) {
-        // Échange des caractères
-        temp = chaine[debut];
-        chaine[debut] = chaine[fin];
-        chaine[fin] = temp;
-
-        debut++;
-        fin--;
-}
-}
-
 int signe (int a){
     if ( a%2 == 0){
         return 1;
@@ -106,12 +87,6 @@ int main() {
     }*/
 
 //----------------------------------------------------------Challenge 7 : Fonction d'Inversion de Chaîne
-
-    /*char caractere;
-    printf("entrez un caractere");
-    scanf("%s", &caractere);
-
-    printf("l'inverse de cette chaine est : %s",inversion(caractere));*/
 
 //----------------------------------------------------------Challenge 8 : Fonction de Vérification de Parité
     /*int nb;

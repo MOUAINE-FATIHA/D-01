@@ -1,6 +1,6 @@
-#include <stdio.h>
+/*#include <stdio.h>
 #include <string.h>
-
+//----------------------------------------------challenge 1:Définition et Utilisation de Structure
 // Définition de la structure
 /*struct Personne {
     char nom[50];
@@ -13,31 +13,34 @@
     char prenom[50];
     int age;
 }Personne;*/
-//---------------------------------------------------challenge 2
+//-----------------------------------challenge 2 : Structure avec Tableau
 /*struct Etudiant {
     char nom[50];
     char prenom[50];
     int notes[5];
 };*/
-//---------------------------------------------------challenge 3
+//---------------------------------challenge 3: Passage de Structure en Argument
     /*struct rectangle{
     int longueur;
     int largeur;
     };
-    int calcul(int lo , int la){
-        int aire = lo * la;
+    int calcul(struct rectangle r){
+        return r.longueur * r.largeur;
     }*/
-//-----------------------------------------------------challenge 5
-    struct livre{
+//---------------------------------Challenge 4 : Structure avec Pointeurs
+
+//---------------------------------challenge 5 : Structure et Fonction de Retour
+    /*struct livre{
     char titre[50];
     char auteur[50];
     int annee;
     };
     void informations(char titre[] , char auteur[], int annee){
         printf("Titre: %s\nAuteur: %s\nAnnée: %d\n", titre, auteur, annee);
-    }
+    }*/
 
-int main() {
+/*int main() {
+//----------------------------------------Challenge 1 : Définition et Utilisation de Structure
     /*
     // Creation d'une variable de type Personne
     struct Personne p;
@@ -56,7 +59,7 @@ int main() {
     printf("Prenom: %s\n", p.prenom);
     printf("Age: %d ans\n", p.age);
     */
-    //-----------------------------------------------challenge 2
+    //------------------------------------challenge 2 : Structure avec Tableau
     /*struct Etudiant e;
 
     // Affectation des valeurs
@@ -78,19 +81,25 @@ int main() {
         printf("%d ", e.notes[i]);
     }
     printf("\n");*/
-    //-----------------------------------------------challenge 3
+    //-----------------------------------------challenge 3: Passage de Structure en Argument
     /*struct rectangle rec1;
     rec1.longueur = 4;
     rec1.largeur = 2;
-    printf("l'aire de cet rectangle est : %d",calcul(rec1.longueur , rec1.largeur));*/
+    int aire = calcul(rec1);
+    printf("l'aire de cet rectangle est : %d",aire);*/
+    //------------------------------------------------Challenge 4 : Structure avec Pointeurs
+
+
+
     //------------------------------------------------Challenge 5 : Structure et Fonction de Retour
-    struct livre liv;
+    /*struct livre liv;
     strcpy(liv.titre ,"livre1");
     strcpy(liv.auteur ,"auteur1");
     liv.annee = 2004;
 
-    informations(liv.titre ,liv.auteur, liv.annee);
+    informations(liv.titre ,liv.auteur, liv.annee);*/
 
-    return 0;
-}
+    /*return 0;
 
+
+}*/

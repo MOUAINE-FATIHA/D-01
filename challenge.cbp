@@ -34,10 +34,19 @@
 		<Unit filename="Conditions.c">
 			<Option compilerVar="CC" />
 		</Unit>
+		<Unit filename="Projet-Fin-Sas.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="algorithme.c">
+			<Option compilerVar="CC" />
+		</Unit>
 		<Unit filename="boucles.c">
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="day1.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="exercice.c">
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="functions.c">
@@ -47,6 +56,18 @@
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="mini-project.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="mini-projet-D03.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="mini-projet-d03-ameliore.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="strings.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="strings1.c">
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="structures.c">

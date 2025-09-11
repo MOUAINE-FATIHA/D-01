@@ -113,6 +113,7 @@ int main() {
         printf("2. Modifier un contact\n");
         printf("3. Supprimer un contact\n");
         printf("4. Afficher tous les contacts\n");
+
         printf("5. Rechercher un contact\n");
         printf("0. Quitter\n");
         printf("Choix: ");

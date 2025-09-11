@@ -50,7 +50,6 @@ int main(){
     printf("le max est  %d",max);*/
 
     //-----------------------------------------------------------Challenge 5 : Trouver le Minimum
-
     /*int tab2[]= {1,2,3,4,5,5,8,9,16,4};
     int i=0;
     int min;
@@ -105,7 +104,7 @@ int main(){
     for(i = 0;i < lenght;i++ ){
             tab2[i] = tab1[i];
     };
-    printf("");*/
+    printf("%d",tab2[i]);*/
 
 //=========================================================================Exercices de bases [TABLEUX]
 
@@ -348,10 +347,10 @@ int main(){
     if (pos<=0 || pos> taille+1){
         printf("impossible !");
     }else{
-        for(i=taille ; i>= pos ; i--){
+        for(i=taille ; i >= pos ; i--){
             t[i]=t[i-1];
         }
-        t[pos-1]= nb;
+        t[pos-1] = nb;
         taille++;
         for (i=0 ; i< taille ; i++){
             printf("t[%d]= %d \n",i+1,t[i]);
